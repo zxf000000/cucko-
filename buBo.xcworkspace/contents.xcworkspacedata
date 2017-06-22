@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:buBo/Today/Views/manageGoalTableViewCell.h">
+   </FileRef>
+   <FileRef
+      location = "group:buBo/Today/Views/manageGoalTableViewCell.m">
+   </FileRef>
+   <FileRef
+      location = "group:buBo/Today/Views/TodayTableViewCell.h">
+   </FileRef>
+   <FileRef
+      location = "group:buBo/Today/Views/TodayTableViewCell.m">
+   </FileRef>
+   <FileRef
+      location = "group:buBo/Today/Views/TodayTableViewCell.xib">
+   </FileRef>
+   <FileRef
+      location = "group:buBo/Today/Views/XFTodayStoryboard.storyboard">
+   </FileRef>
+   <FileRef
+      location = "group:buBo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

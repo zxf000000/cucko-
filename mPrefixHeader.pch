@@ -1,0 +1,63 @@
+//
+//  mPrefixHeader.pch
+//  buBo
+//
+//  Created by mr.zhou on 2017/6/3.
+//  Copyright © 2017年 mr.zhou. All rights reserved.
+//
+
+#ifndef mPrefixHeader_pch
+#define mPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#import "buBo-Bridging-Header.h"
+#import "buBo-Swift.h"
+
+#import <RTRootNavigationController.h>
+#import <Masonry.h>
+#import <POP.h>
+
+#import "AppDelegate.h"
+#import "Goal+CoreDataClass.h"
+#import "XFCoreDataManager.h"
+
+#import "NSDateFormatter+XFDateFormatter.h"
+#import "NSDateFormatter+XFDateFormatter.h"
+#import "XFCalendarCalculater.h"
+
+#import <MBProgressHUD.h>
+// 番茄控制器相关
+#define kSecondBeforeKilledKey @"secondBeforeKilled"
+#define kTomatoTimeSecondKey @"tomatoTimeSecond"
+#define kBeginStatusKey @"tomatoIsBegin"
+#define kDateForKilledKey @"dateForKilled"
+#define kTomatoBeginTimeKey @"tomatoBeginTime"
+#define kTomatoEndTimeKey @"tomatoEndTime"
+#define kGoalBeginTimeKey @"goalBeginTime"
+#define kGoalIsBeginKey @"goalISBegin"
+
+
+#define kDayCellDimeter 100/3.f
+#define kWeekdayViewHeight 25
+#define kMonthAndWeekViewSpace ((kScreenWidth - kDayCellDimeter*7)/7)
+#define kMonthAndWeekViewInsert (kMonthAndWeekViewSpace/2.f)
+
+#define monthViewHeight  (((kMonthAndWeekViewSpace) + (kDayCellDimeter))*6)
+#define weekViewHeight  (kMonthAndWeekViewSpace + kDayCellDimeter)
+
+#define kNavigationBarColor [UIColor colorWithRed:18/255.f green:131/255.f blue:207/255.f alpha:1]
+
+#define kAlertViewWidth 200.f
+#define kAlertViewTopHeight 40.f
+
+
+typedef NS_ENUM(NSInteger, GoalStatus) {
+    kGoalStatusDoing,
+    kGoalStatusDone,
+    kGoalStatusDeleted,
+};
+#endif /* mPrefixHeader_pch */

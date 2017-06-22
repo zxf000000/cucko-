@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16E195" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Goal" representedClassName="Goal" syncable="YES" codeGenerationType="class">
+        <attribute name="beginAndEnd" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="bigGoalName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="color" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="creatTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deadtime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="encourage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="everyday" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDone" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isWaste" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="needs" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pic" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="showInIndex" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="times" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Times" representedClassName="Times" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Goal" positionX="-63" positionY="-18" width="128" height="300"/>
+        <element name="Times" positionX="-63" positionY="54" width="128" height="75"/>
+    </elements>
+</model>
